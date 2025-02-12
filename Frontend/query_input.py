@@ -9,9 +9,8 @@ def query_input_component(model_name):
     # Button to fetch the response
     if st.button("Get Answer"):
         if query.strip():
-            # Placeholder response (to be replaced with RAG logic)
             response = f"🔮 Model ({model_name}) says: This is a placeholder response."
             st.info(response)
         else:
-            st.warning("⚠️ Please enter a query before submitting!")
+            st.warning(" Please enter a query before submitting!")
 
